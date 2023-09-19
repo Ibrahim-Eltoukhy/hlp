@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --color-primary: #ff52bf;
+  --color-sec-dark: #00252e;
+  --color-sec-light: #808d99;
+
+  /* Spaces */
+
+  --section-margin: 100px;
+  --section-padding: 50px;
+}
+/* Component */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--color-sec-dark);
+}
+header {
+  background-image: url(../../images/bg-hero-desktop.svg);
+  background-color: #ebfbff;
+  padding: var(--section-padding);
+  margin-bottom: var(--section-margin);
+  /* height: 100vh; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--section-margin);
+}
+
+.nav-btn {
+  border: none;
+  padding: 10px 48px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px 3px #eee;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-fig {
+  max-width: 100%;
+}
+
+.hero-img {
+  width: 100%;
+}
+.hero-text {
+  padding-right: 60px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.hero-paragrap {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+/* Main Page */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: var(--section-padding);
+  box-shadow: 0px 0px 8px 0 #ddd;
+}
+
+.ill-img {
+  width: 100%;
+}
+.section-head {
+  margin-bottom: 30px;
+}
+.sec-p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-sec-light);
+}
+.reg {
+  max-width: 700px;
+  margin: 30px auto -80px auto;
+  text-align: center;
+  padding: var(--section-padding);
+  box-shadow: 0px -2px 5px 0 #ddd;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+footer {
+  background-color: var(--color-sec-dark);
+
+  color: #fff;
+  font-size: 13px;
+  padding: 100px 50px 50px;
+}
+.footer-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 30px;
+  font-weight: 400;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.logo-footer {
+  margin-bottom: 30px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social a:hover svg {
+  fill: #ff52bf;
+}
+.social-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  :root {
+    --section-margin: 50px;
+    --section-padding: 50px 20px;
+  }
+  .logo-img {
+    width: 130px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .nav-btn {
+    padding: 4px 20px;
+    font-size: 12px;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-text {
+    padding: 50px 8px;
+  }
+  .hero-paragrap {
+    font-size: 18px;
+  }
+  main {
+    padding: 0 20px;
+  }
+  .card {
+    text-align: center;
+  }
+  .reg {
+    width: 90%;
+    padding: 30px 15px;
+  }
+  .start-btn {
+    font-size: 13px;
+    width: 75%;
+    padding: 12px 6px;
+  }
+  .section-head {
+    font-size: 17px;
+  }
+  .card:nth-child(odd) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  footer {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 100px 20px 30px 20px;
+  }
+  .footer-logo {
+    width: 150px;
+    margin-top: 50px;
+  }
+  .footer-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    gap: 0px;
+  }
+  .contact {
+    align-items: flex-start;
+  }
+  .contact:last-child {
+    margin-bottom: 30px;
+  }
+  .foo-icon {
+    display: block;
+    margin-top: 6px;
+  }
+  .contacts-container {
+    margin-bottom: 30px;
+  }
+  .social-cont {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .social-cont p {
+    font-size: 10px;
+  }
+  .social {
+    justify-content: center;
+  }
+  .pages:nth-child(3) {
+    margin-bottom: 20px;
+  }
+}
