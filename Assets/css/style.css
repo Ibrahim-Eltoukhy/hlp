@@ -23,12 +23,22 @@
   align-items: center;
   gap: 30px;
 }
+.btn {
+  border: none;
+  padding: 10px 48px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px 3px #eee;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: var(--color-sec-dark);
 }
+/* Header Section */
 header {
   background-image: url(../../images/bg-hero-desktop.svg);
   background-color: #ebfbff;
@@ -44,15 +54,10 @@ nav {
 }
 
 .nav-btn {
-  border: none;
-  padding: 10px 48px;
   background-color: #fff;
-  border-radius: 50px;
-  box-shadow: 1px 1px 3px 3px #eee;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  cursor: pointer;
 }
+
+/* Hero Section */
 .hero {
   grid-template-columns: 1fr 1.3fr;
 }
@@ -102,6 +107,8 @@ main {
   line-height: 1.6;
   color: var(--color-sec-light);
 }
+
+/* Community Card */
 .reg {
   max-width: 700px;
   margin: 30px auto -80px auto;
@@ -113,7 +120,7 @@ main {
   background-color: #fff;
   border-radius: 10px;
 }
-
+/* Footer */
 footer {
   background-color: var(--color-sec-dark);
 
@@ -165,8 +172,8 @@ footer a:hover {
   flex-direction: column;
   justify-content: space-between;
 }
-
-@media (max-width: 768px) {
+/* Responsive design */
+@media (max-width: 992px) {
   :root {
     --section-margin: 50px;
     --section-padding: 50px 20px;
@@ -177,10 +184,7 @@ footer a:hover {
   h1 {
     font-size: 28px;
   }
-  .nav-btn {
-    padding: 4px 20px;
-    font-size: 12px;
-  }
+
   .grid-2 {
     grid-template-columns: 1fr;
   }
@@ -205,8 +209,7 @@ footer a:hover {
   }
   .start-btn {
     font-size: 13px;
-    width: 75%;
-    padding: 12px 6px;
+    padding: 10px 22px;
   }
   .section-head {
     font-size: 17px;
