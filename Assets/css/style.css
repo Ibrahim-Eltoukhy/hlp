@@ -112,7 +112,6 @@ main {
   z-index: 1;
   background-color: #fff;
   border-radius: 10px;
-  /* display: none; */
 }
 
 footer {
@@ -167,7 +166,7 @@ footer a:hover {
   justify-content: space-between;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   :root {
     --section-margin: 50px;
     --section-padding: 50px 20px;
