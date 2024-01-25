@@ -60,10 +60,15 @@ nav {
 
 /* Hero Section */
 .hero {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
+.hero-fig,
+.hero-text {
+  min-width: 400px;
+  max-width: 45%;
+}
 .hero-img {
   width: 100%;
 }
@@ -194,7 +199,9 @@ footer a:hover {
   }
   .hero {
     text-align: center;
+    justify-content: center;
   }
+
   .hero-text {
     padding: 50px 8px;
   }
