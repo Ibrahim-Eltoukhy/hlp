@@ -50,7 +50,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   margin-bottom: var(--section-margin);
 }
 
@@ -60,7 +60,8 @@ nav {
 
 /* Hero Section */
 .hero {
-  grid-template-columns: 1fr 1.3fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .hero-img {
@@ -185,7 +186,9 @@ footer a:hover {
   h1 {
     font-size: 28px;
   }
-
+  .nav-btn {
+    transform: scale(0.8);
+  }
   .grid-2 {
     grid-template-columns: 1fr;
   }
