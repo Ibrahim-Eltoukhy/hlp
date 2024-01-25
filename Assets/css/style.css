@@ -44,7 +44,7 @@ header {
   background-color: #ebfbff;
   padding: var(--section-padding);
   margin-bottom: var(--section-margin);
-  /* height: 100vh; */
+
 }
 
 nav {
@@ -60,15 +60,9 @@ nav {
 
 /* Hero Section */
 .hero {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
 }
-.hero-fig,
-.hero-text {
-  min-width: 400px;
-  max-width: 45%;
-}
+
 .hero-img {
   width: 100%;
 }
@@ -192,16 +186,14 @@ footer a:hover {
     font-size: 28px;
   }
   .nav-btn {
-    transform: scale(0.8);
+    transform: scale(.75);
   }
   .grid-2 {
     grid-template-columns: 1fr;
   }
   .hero {
     text-align: center;
-    justify-content: center;
   }
-
   .hero-text {
     padding: 50px 8px;
   }
