@@ -50,7 +50,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-![My Skills](https://skillicons.dev/icons?i=html,css)]
+![My Skills](https://skillicons.dev/icons?i=html,css)
 ### What I learned
 
 In this challenge I have learned to make my page responsive using media query and css grid, make my css file more organized and by using variables  
