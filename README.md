@@ -50,6 +50,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
+![My Skills](https://skillicons.dev/icons?i=html,css)]
 ### What I learned
 
 In this challenge I have learned to make my page responsive using media query and css grid, make my css file more organized and by using variables  
@@ -77,11 +78,10 @@ The mobile first approach will be taken into account in the future projects also
 ### Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/) - This is the best documentation for web development online which helped me a lot in learning HTML and CSS.
-- [W3SCOOLS](https://www.w3schools.com/) - This is also a good recourse that helped me a lot in my learning journey.
+- [W3SCHOOLS](https://www.w3schools.com/) - This is also a good recourse that helped me a lot in my learning journey.
 
 
 ## Author
 
 - Linkedin - [Ibrahim Eltoukhy](https://www.linkedin.com/in/ibrahim-el-tokhy/)
 - Frontend Mentor - [@Ibrahim-Eltoukhy](https://www.frontendmentor.io/profile/Ibrahim-Eltoukhy)
-
